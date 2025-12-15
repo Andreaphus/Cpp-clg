@@ -71,7 +71,7 @@ cout<<"Number is armstrong\n";
 }
 else
 {
-cout<<"Number is armstrong\n";
+cout<<"Number is not armstrong\n";
 }
 }
 };
@@ -91,4 +91,5 @@ d.pallendrome();
 cout<<"For Armstrong\n";
 d.input();
 d.armstrong();
+
 }
