@@ -2,7 +2,7 @@
 class grade{
 private:
 std::string name;
-int rollno,marks1,marks2,marks3
+int rollno,marks1,marks2,marks3;
 public:
 void input()
 {
@@ -25,6 +25,7 @@ std::cout<<"Marks obtained by student is:-"<<marks1<<std::endl<<marks2<<std::end
 }
 int total()
 {
+    int tot;
 tot=marks1+marks2+marks3;
 return tot;
 }
@@ -55,5 +56,4 @@ s2.average();
 s3.average();
 s4.average();
 s5.average();
-
-}    
+} 
